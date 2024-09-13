@@ -15,15 +15,7 @@ email: the108matrix@gmail.com
 
 # Authors
 authors:
-  # sal:
-  #   name: Chris
-  #   display_name: Chris Munch
-  #   avatar: 'assets/images/avatar.png'
-  #   # email: wowthemesnet@gmail.com
-  #   # web: https://www.wowthemes.net/donate/
-  #   # twitter: https://twitter.com/wowthemesnet
-  #   description: Chris Munch, a biology graduate, has a keen interest in health supplements, fueled by an expansive study in the field. Drawing inspiration from acclaimed figures like Andrew W. Saul PH.D and Dr. Tom O. Bryan, Chris combines a rigorous scientific approach with a discerning eye for marketing and statistical misrepresentation. His self-experimentation ethos, inspired by Tim Ferriss and Bryan Johnson, allows for a deeper understanding of how various health strategies affect the body. Yet, despite his extensive knowledge, Chris prefers to be seen as a researcher, constantly learning and expanding his understanding of health supplements and menopausal weight loss.
-  aaina:
+    aaina:
     name: Aaina
     display_name: Aaina
     avatar: 'assets/images/avatar.png'
