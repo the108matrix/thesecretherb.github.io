@@ -1,0 +1,18 @@
+<hr>
+<h2 style="font-family: Arial, sans-serif; color: #333; text-align: center; margin-bottom: 20px;">Frequently Asked Questions</h2>
+<div style="width: 100%; max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif;">
+
+  {% for item in page.faq %}
+  <div style="margin-bottom: 10px; border-bottom: 1px solid #ddd;">
+    <button style="background-color: #f9f9f9; color: #333; cursor: pointer; padding: 15px; width: 100%; text-align: left; border: none; outline: none; font-size: 18px; font-weight: bold; transition: background-color 0.3s ease;" 
+            onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';">
+      {{ item.question }}
+      <span style="float: right;">&#x25BC;</span>
+    </button>
+    <div style="display: none; padding: 15px; background-color: #fff; font-size: 16px; color: #666;">
+      <p style="margin: 0;">{{ item.answer }}</p>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>

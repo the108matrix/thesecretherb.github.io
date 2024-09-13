@@ -85,3 +85,52 @@ https://search.google.com/structured-data/testing-tool/u/0/
     }
     </script>
 {% endif %}
+
+<!-- FAQ Structured Data -->
+{% if page.faq %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in page.faq %}{"@type":"Question","name":"{{item.question}}","acceptedAnswer":{"@type":"Answer","text":"{{item.answer}}"}}{% if forloop.last == false %},{% else %}]}</script>{% endif %}{% endfor %}{% endif %}
+
+<!-- Recipe Structured Data -->
+{% if page.recipe %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "{{ page.recipe.name }}",
+  "image": [
+    "{{ page.recipe.image | join: '", "' }}"
+  ],
+  "description": "{{ page.recipe.description }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.recipe.author }}"
+  },
+  "prepTime": "{{ page.recipe.prepTime }}",
+  "cookTime": "{{ page.recipe.cookTime }}",
+  "totalTime": "{{ page.recipe.totalTime }}",
+  "recipeYield": "{{ page.recipe.recipeYield }}",
+  "recipeCategory": "{{ page.recipe.recipeCategory }}",
+  "recipeCuisine": "{{ page.recipe.recipeCuisine }}",
+  "keywords": "{{ page.recipe.keywords }}",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "{{ page.recipe.nutrition.calories }}"
+  },
+  "recipeIngredient": [
+    {% for ingredient in page.recipe.recipeIngredient %}
+    "{{ ingredient }}"{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ],
+  "recipeInstructions": [
+    {% for step in page.recipe.recipeInstructions %}
+    {
+      "@type": "HowToStep",
+      "name": "{{ step.name }}",
+      "text": "{{ step.text }}",
+      "url": "{{ step.url }}",
+      "image": "{{ step.image }}"
+    }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

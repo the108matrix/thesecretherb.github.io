@@ -16,6 +16,16 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+<script async data-id="101464659" src="//static.getclicky.com/js"></script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "o2p9qxy145");
+</script>
+
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -49,12 +59,12 @@
 <div id="blackover-nav" class="blackover"></div>
 <nav id="menu">
     <ul>
-        <h3>Navigation</h3>
+        <!-- <h3>Navigation</h3> -->
         <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about">About</a></li>
-        <li><a href="{{ site.baseurl }}/authors">Contributors <span class="badge badge-primary">new</span></a></li>
-        <li><a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/">Get Memoirs</a></li>      
-        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
+        <!-- <li><a href="{{ site.baseurl }}/authors">Authors <span class="badge badge-primary">new</span></a></li>
+        <li><a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/">Get Memoirs</a></li>       -->
+        <li><a href="{{ site.baseurl }}/contact">About Us</a></li>
+
     </ul>   
 </nav>
 
@@ -112,10 +122,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                Copyright © {{ site.time | date: "%Y" }} <a href="{{ site.baseurl }}/">{{ site.name }}</a> 
             </div>
+
             <div class="col-md-6 col-sm-12 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
+                <a target="_blank" href="{{ site.baseurl }}/termsofserviceprivacypolicy">Terms of Service & Privacy Policy</a>
             </div>
         </div>
     </div>

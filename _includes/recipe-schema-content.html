@@ -1,0 +1,44 @@
+<hr>
+<div style="max-width: 800px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <!-- Recipe Name and Image -->
+  <h2 style="margin-top: 0;">{{ page.recipe.name }}</h2>
+  <img src="{{ page.recipe.image | first }}" alt="{{ page.recipe.name }}" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+
+  <!-- Description -->
+  <p>{{ page.recipe.description }}</p>
+
+  <!-- Info and Ingredients Section -->
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
+    <!-- Info Column -->
+    <div style="flex: 1 1 30%; min-width: 250px; background: #edfbf8; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+      <h3 style="margin-top: 0;">Info</h3>
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        <li><strong>Prep Time:</strong> {{ page.recipe.prepTime }}</li>
+        <li><strong>Cook Time:</strong> {{ page.recipe.cookTime }}</li>
+        <li><strong>Total Time:</strong> {{ page.recipe.totalTime }}</li>
+        <li><strong>Yield:</strong> {{ page.recipe.recipeYield }}</li>
+        <li><strong>Category:</strong> {{ page.recipe.recipeCategory }}</li>
+        <li><strong>Cuisine:</strong> {{ page.recipe.recipeCuisine }}</li>
+        <li><strong>Keywords:</strong> {{ page.recipe.keywords }}</li>
+        <li><strong>Calories:</strong> {{ page.recipe.nutrition.calories }}</li>
+      </ul>
+    </div>
+    <!-- Ingredients Column -->
+    <div style="flex: 1 1 30%; min-width: 250px; background: #edfbf8; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+      <h3 style="margin-top: 0;">Ingredients</h3>
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        {% for ingredient in page.recipe.recipeIngredient %}
+        <li>&#8226; {{ ingredient }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <!-- Instructions -->
+  <h3>Instructions</h3>
+  <ol style="margin-top: 0;">
+    {% for step in page.recipe.recipeInstructions %}
+    <li><strong>{{ step.name }}:</strong> {{ step.text }}</li>
+    {% endfor %}
+  </ol>
+</div>
