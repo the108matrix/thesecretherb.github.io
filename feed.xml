@@ -2,53 +2,63 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+
   <channel>
     <title>{{ site.title | xml_escape }}</title>
+    <link>{{ site.url | xml_escape }}</link>
     <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
+    <language>en-US</language>
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
+    
     {% for post in site.posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}</link>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <dc:creator><![CDATA[{{ post.author | xml_escape }}]]></dc:creator>
+        <category><![CDATA[{{ post.category | xml_escape }}]]></category>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}</guid>
 
-        <!-- Include image -->
-        {% if post.image %}
-          <media:content url="{{ post.image | xml_escape }}" medium="image"/>
-        {% endif %}
-
-        <!-- Include content -->
-        <content:encoded><![CDATA[{{ post.content | xml_escape }}]]></content:encoded>
-
-        <!-- Include FAQs -->
-        {% if post.faq %}
-          <faq>
-            {% for item in post.faq %}
-              <question>{{ item.question | xml_escape }}</question>
-              <answer>{{ item.answer | xml_escape }}</answer>
-            {% endfor %}
-          </faq>
-        {% endif %}
-
-        <!-- Include recipes if any -->
-        {% if post.recipes %}
-          <recipes>
-            {% for recipe in post.recipes %}
-              <recipe>
-                <title>{{ recipe.title | xml_escape }}</title>
-                <ingredients>{{ recipe.ingredients | xml_escape }}</ingredients>
-                <instructions>{{ recipe.instructions | xml_escape }}</instructions>
-              </recipe>
-            {% endfor %}
-          </recipes>
-        {% endif %}
+        <description><![CDATA[{{ post.description | xml_escape }}]]></description>
+        
+        <content:encoded><![CDATA[
+          <p><img src="{{ post.image | xml_escape }}" alt="Post Image" /></p>
+          <p>{{ post.description | xml_escape }}</p>
+          <p>{{ post.content | xml_escape }}</p>
+          
+          {% if post.faqs %}
+            <div class="faqs">
+              <h2>FAQs</h2>
+              {% for faq in post.faqs %}
+                <div class="faq">
+                  <h3>{{ faq.question | xml_escape }}</h3>
+                  <p>{{ faq.answer | xml_escape }}</p>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+          
+          {% if post.recipes %}
+            <div class="recipes">
+              <h2>Recipes</h2>
+              {% for recipe in post.recipes %}
+                <div class="recipe">
+                  <h3>{{ recipe.title | xml_escape }}</h3>
+                  <p><strong>Ingredients:</strong> {{ recipe.ingredients | xml_escape }}</p>
+                  <p><strong>Instructions:</strong> {{ recipe.instructions | xml_escape }}</p>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        ]]></content:encoded>
       </item>
     {% endfor %}
   </channel>
