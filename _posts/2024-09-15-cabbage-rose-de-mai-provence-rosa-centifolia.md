@@ -191,7 +191,7 @@ Cabbage rose's synonyms are poetic and descriptive, reflecting its many uses and
 
 In some texts, you might even come across names like **Ramataruni** or **Dvirephagana-sammata**, which evoke its divine fragrance and curative powers.
 
-## Modern Research: What Science Says About Cabbage Rose & Pharmacological Benefits & Uses: More Than Just Pretty Petals
+## Modern Research & Pharmacological Benefits of Cabbage Rose
 
 Let's dive into the reasons why Rosa centifolia deserves a spot in your medicine cabinet. Here are just a few of its star performances:
 
