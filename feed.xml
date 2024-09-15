@@ -18,16 +18,13 @@ layout: null
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        
-        <!-- Include the featured image if available -->
-        {% if post.image %}
-          <media:content url="{{ post.image | prepend: site.baseurl | prepend: site.url }}" medium="image"/>
-        {% endif %}
-        
-        <!-- Include the full content -->
+        <!-- Include detailed content -->
         <content:encoded><![CDATA[{{ post.content | xml_escape }}]]></content:encoded>
-        
-        <!-- Example for FAQs (assuming you're using custom front matter for FAQs) -->
+        <!-- Include meta information -->
+        <category>{{ post.category | xml_escape }}</category>
+        <dc:creator>{{ post.author | xml_escape }}</dc:creator>
+        <meta name="keywords" content="{{ post.keywords | xml_escape }}"/>
+        <!-- Include FAQs if any -->
         {% if post.faqs %}
           <faq>
             {% for faq in post.faqs %}
@@ -36,8 +33,7 @@ layout: null
             {% endfor %}
           </faq>
         {% endif %}
-        
-        <!-- Example for Recipes (assuming you're using custom front matter for recipes) -->
+        <!-- Include recipes if any -->
         {% if post.recipes %}
           <recipes>
             {% for recipe in post.recipes %}
