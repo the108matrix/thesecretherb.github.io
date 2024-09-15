@@ -34,10 +34,10 @@ layout: null
           <p>{{ post.description | xml_escape }}</p>
           <p>{{ post.content | xml_escape }}</p>
           
-          {% if post.faqs %}
-            <div class="faqs">
+          {% if post.faq %}
+            <div class="faq">
               <h2>FAQs</h2>
-              {% for faq in post.faqs %}
+              {% for faq in post.faq %}
                 <div class="faq">
                   <h3>{{ faq.question | xml_escape }}</h3>
                   <p>{{ faq.answer | xml_escape }}</p>
