@@ -6,7 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thesecretherb.com" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: 'UA-xxxxxxxx-1'
+# google_analytics: 'UA-xxxxxxxx-1'
 # disqus: 'demowebsite'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
@@ -15,7 +15,7 @@ email: the108matrix@gmail.com
 
 # Authors
 authors:
-    aaina:
+  aaina:
     name: Aaina
     display_name: Aaina
     avatar: 'assets/images/avatar.png'
@@ -39,7 +39,7 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: '/:name/'
     
 # Pagination 
 paginate: 6

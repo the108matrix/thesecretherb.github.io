@@ -13,4 +13,13 @@
     {% endif %}
     <!-- End Toc -->
     {{content}}
+    {% if page.herb %}
+    {% include herb-schema-content.html %}
+    {% endif %}
+    {% if page.faq %}
+    {% include faq-schema-content.html %}
+    {% endif %}
+    {% if page.recipe %}
+    {% include recipe-schema-content.html %}
+    {% endif %}
 </div>

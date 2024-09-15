@@ -15,6 +15,7 @@ Join us as we uncover nature’s treasures and help you rejuvenate your body, mi
 
 
 # Meet our Team
+
 <div class="list-authors mt-5">
 {% for author in site.authors %}   
     <div id="{{ author[1].name }}" class="authorbox position-relative pb-5 pt-5 mb-4 mt-4 border">   
