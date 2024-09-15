@@ -142,7 +142,7 @@ Whether you're battling skin issues, menstrual woes, or just need to zen out, Gu
 This rose petal distillate works wonders for burning eyes and is a lifesaver when it comes to beating body odor. So, the next time summer has you sweating bullets, Gulab Arka’s got your back.
 
 
-### Recommended Dosage:
+### Recommended Dosage
 
 - **Powder**: 1--3 grams
 - **Gulkand**: 10--20 grams (Yes, a jam that's medicine!)
@@ -153,7 +153,7 @@ This rose petal distillate works wonders for burning eyes and is a lifesaver whe
 
 Ayurveda hails the Cabbage Rose as a balancing act for all three doshas---Vata, Pitta, and Kapha. With its cooling, light properties, it's perfect for calming an overactive mind and soothing inflamed skin. Whether you need help with digestion, heart health, or emotional well-being, this rose has you covered.
 
-### Ayurvedic Properties:
+### Ayurvedic Properties
 
 - **Rasa** (Taste): Tikta (bitter) and Katu (pungent)
 - **Guna** (Qualities): Hima (cooling) and Laghu (light)
