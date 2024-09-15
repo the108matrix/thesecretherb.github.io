@@ -53,6 +53,18 @@ kramdown:
       disable : true
 
 
+plugins:
+  - jekyll-sitemap
+
+# Exclude pages you don't want in the sitemap:
+exclude:
+  - "/authors"
+  - "/categories"
+  - "/contact"
+  - "/tags"
+  - "/termsofserviceprivacypolicy"
+  - "/other-page-you-don't-want-indexed"
+
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 # adsense: "disabled"

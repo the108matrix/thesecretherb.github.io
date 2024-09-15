@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /authors
+Disallow: /categories
+Disallow: /contact
+Disallow: /tags
+Disallow: /termsofserviceprivacypolicy
