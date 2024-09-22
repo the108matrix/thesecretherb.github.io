@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rose de Mai Absolute Must-Have Herb to Harvest Health & Beauty"
+title:  "Rose de Mai Absolute Herb Guide: Medicinal Uses & DIY Remedies For Beauty & Health Care"
 author: aaina
 comments : false
 # categories: []
