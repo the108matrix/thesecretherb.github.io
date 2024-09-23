@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Rose de Mai Absolute Herb Guide: Medicinal Uses & DIY Remedies For Beauty & Health Care"
+title:  "Rose de Mai Medicinal Uses & DIY Herbal Remedies For Beauty & Health Care"
 author: aaina
 comments : false
 # categories: []
 # tags: []
 image: https://upload.wikimedia.org/wikipedia/commons/b/b5/2008-07-14Impatiens_walleriana144.jpg
-description: "Balance Vata-Pitta-Kapha doshas with Rosa Centifolia. Learn how Provence Rose goes from wedding bouquets to your herbal apothecary with DIY remedies, essential oils, and even edible jams."
+description: "Balance Vata-Pitta-Kapha doshas with Rosa Centifolia flowers. From bridal bouquets to your medicine cabinet, discover Provence Rose’s nutritional facts, heart-healthy benefits, IBS & pain relief, and throat-soothing powers with detox tea & easy edible floral jam recipes."
 featured: true
 hidden: false
 toc: true
