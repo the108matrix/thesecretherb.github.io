@@ -5,7 +5,7 @@ author: aaina
 comments : false
 # categories: []
 # tags: []
-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN07ygy-fLh6GgktuDSPvvqL1jF7DID0ixw&s
+image: https://images.squarespace-cdn.com/content/v1/590e84c6ff7c502e782892f8/1719376659067-JVPRSIZ15UI90ADOFPCL/Aloe+vera+-+Copy.jpg?format=1500w
 description: " "
 featured: true
 hidden: false
@@ -100,13 +100,13 @@ When it comes to consumption, moderation is key. For internal use:
 
 Aloe Vera’s **phytochemical** profile is truly staggering. The herb is packed with bioactive compounds like **anthraquinones**, **polysaccharides**, **mannans**, and **lectins**.
 
-#### Anthraquinones: Nature’s Laxative**
+### Anthraquinones: Nature’s Laxative**
 Anthraquinones like **aloin** and **emodin** give Aloe Vera its natural laxative properties. They stimulate bowel movements, which makes Aloe Vera a remedy for constipation.
 
-#### Polysaccharides: Skin’s Best Friend
+### Polysaccharides: Skin’s Best Friend
 The polysaccharides in Aloe Vera are responsible for its skin-soothing qualities. These long-chain sugars create a protective layer over your skin, trapping moisture and healing irritation from acne, sunburns, or wounds.
 
-#### Lectins and Mannans: Immunity Boosters
+### Lectins and Mannans: Immunity Boosters
 These compounds work at a deeper level, helping regulate your blood sugar, making Aloe Vera a key player in managing diabetes. They also boost your immune system by increasing white blood cell counts, helping the body fend off infections, and even viruses like HIV.
 
 ## Ayurvedic Properties of Aloe Vera: More Than Just a Cool Gel
@@ -173,7 +173,7 @@ According to Ayurveda, Aloe Vera strengthens Agni (digestive fire) and helps cle
 
 While Aloe Vera is packed with benefits, it’s not without its risks. **Aloe latex**, for example, should be consumed cautiously as it can cause diarrhea and abdominal pain. Pregnant women should avoid it due to its potential to cause uterine contractions and increase the risk of **miscarriage**.
 
-#### Other Potential Side Effects:
+### Other Potential Side Effects:
 - Stomach discomfort
 - Allergic reactions on sensitive skin
 - Blood sugar drops when taken alongside diabetes medications
