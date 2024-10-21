@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Akarkara"
+title:  "Akarkara, Natural Remedy for Male Sexual Health, Joint Pain, & Memory Boost"
 author: aaina
 comments : false
 # categories: []
 # tags: []
 image: https://upload.wikimedia.org/wikipedia/commons/2/2f/Anacyclus_pyrethrum_var_0zz.jpg
-description: " "
+description: "Transform your wellness with Akarkara! This Himalayan herb enhances libido, fights ED, improves digestion, and eases toothaches. Discover its benefits!"
 featured: true
 hidden: false
 toc: true

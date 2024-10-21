@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Ajwain"
+title:  "Ajwain Medicinal Uses: Easy DIY Ayurvedic Remedies for Indigestion, Cough & Joint Pain"
 author: aaina
 comments : false
 # categories: []
 # tags: []
 image: https://upload.wikimedia.org/wikipedia/commons/e/e9/Ajwain_%28Trachyspermum_ammi%29.jpg
-description: " "
+description: "Learn the health benefits of Ajwain (Carom Seeds) for digestion, respiratory relief, weight loss, and more. Discover its uses and side effects now!"
 featured: true
 hidden: false
 toc: true

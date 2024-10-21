@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Almonds"
+title:  "Almonds as Herbal Medicine: DIY Ayurvedic Remedies for Skin, Hair & Health Care"
 author: aaina
 comments : false
 # categories: []
 # tags: []
 image: https://live.staticflickr.com/5643/20534076345_97bb75a19f_b.jpg
-description: " "
+description: "Want glowing skin and a sharp mind? Boost brain health, control blood sugar, and enhance digestion with this crunchy superfood."
 featured: true
 hidden: false
 toc: true

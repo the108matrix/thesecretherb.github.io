@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Aloe Vera"
+title:  "Aloe Vera Medicinal Uses & DIY Herbal Remedies For Beauty & Health Care"
 author: aaina
 comments : false
 # categories: []
 # tags: []
 image: https://images.squarespace-cdn.com/content/v1/590e84c6ff7c502e782892f8/1719376659067-JVPRSIZ15UI90ADOFPCL/Aloe+vera+-+Copy.jpg?format=1500w
-description: " "
+description: "Discover how this ayurvedic wonder can treat acne, blemishes, stretch marks and promote overall health."
 featured: true
 hidden: false
 toc: true

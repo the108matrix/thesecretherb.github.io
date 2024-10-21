@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Agarwood"
+title:  "Agarwood Medicinal Uses & DIY Remedies for Joint Pain, Skin Care & Bronchitis"
 author: aaina
 comments : false
 # categories: []
 # tags: []
 image: https://upload.wikimedia.org/wikipedia/commons/4/47/Aquilaria_malaccensis_-_Agar_Wood%2C_Eaglewood_-_Indian_Aloewood_at_Munnar_%281%29.jpg
-description: " "
+description: "Discover how this fragrant wood, prized in perfumes and Ayurveda, combats inflammation, boosts immunity, and promotes relaxation."
 featured: true
 hidden: false
 toc: true
